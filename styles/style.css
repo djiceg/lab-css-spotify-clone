@@ -6,3 +6,119 @@ Green: #00B172
 White: #FFF
 
 */
+/* * {
+    outline: 1px solid red;
+}
+*/
+header nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top : 0px;
+    background-color : white;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    box-sizing: content-box;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 2rem;
+}
+header nav img {
+    width: 200px;
+  
+    
+}
+header .hero {
+    background-image: url(./../images/landing.jpg);
+    background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+
+.hero h1{
+    
+font-size: 3rem ;
+color: white;
+
+}
+.hero h2{
+    color: white;
+    font-size: 1rem ;
+
+}
+.features h3 {
+    text-align: center;
+    margin: 1rem;
+} 
+.spotify {
+    display: flex;
+    justify-content: space-evenly;
+}
+    article img {
+        width: 100px;
+    }
+    .spotify article {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+.spotify h4 {
+    color:  rgb(63, 183, 63);
+}
+.greensection{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(59, 186, 59);
+    padding: 0px;
+    margin: 10px;
+    color: white;
+    position: relative;
+    align-items: center;
+
+}
+.logo {
+    position: absolute;
+    height: 100px;
+}
+.green1 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.greensection h5 {
+    text-align: left;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 1rem;
+}
+.greensection h6 {
+    font-size: 25px;
+}
+
+.music {
+    height: 500px;
+
+}
+
+
+.green1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
